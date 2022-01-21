@@ -8,6 +8,6 @@ class HomeResolver implements MicroApp {
 
   @override
   WidgetBuilderRoutes get routes => {
-        '/login': (context, args) => const HomePage(),
+        '/home': (context, args) => const HomePage(),
       };
 }
